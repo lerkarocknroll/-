@@ -1,12 +1,12 @@
 # Токен бота от BotFather
-BOT_TOKEN = '8302796473:AAGNTHQXeApNI2tdW6s6FoviOYp-vO0_olo'
+BOT_TOKEN = ''
 
 # Настройки подключения к базе данных
 DATABASE_CONFIG = {
     'host': 'localhost',
     'database': 'englishcard_bot',
     'user': 'postgres',
-    'password': '120116Eles!',
+    'password': '',
     'port': 5432
 }
 
@@ -30,4 +30,5 @@ WELCOME_MESSAGE = """🇬🇧 Привет! Давай изучать англи
 Готов начать? Жми Дальше!"""
 
 CORRECT_ANSWER = "🎉 Отлично! Правильный ответ!"
+
 WRONG_ANSWER = "❌ Неправильно. Попробуй еще раз!"
